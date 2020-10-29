@@ -28,7 +28,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-```
+```markdown
 Terminal
 
 apt-get update
