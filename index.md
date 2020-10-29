@@ -28,6 +28,13 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```
+Terminal
+
+apt-get update
+
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
