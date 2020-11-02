@@ -28,23 +28,60 @@ root@server:~# nano /etc/proftpd/proftpd.conf
 
 ### En el archivo de configuracion de FTP
 
-_Buscamos y agregamos las siguientes configuraciones_
-
-**Sustituir los [] por datos reales**
+_El archivo de configuracion quedaria de esta manera_
 
 ```markdown
-DefaultRoot [Ruta de Acceso]
-DefaulRoot  [Ruta de Acceso Grupo/Usuario]
+Include /etc/proftpd/modules.conf
+UseIPv6				    on
+IdentLookups			off
+ServerName			    "FTP SafeHome"
+ServerType			    standalone
+DeferWelcome			off
+MultilineRFC2228		on
+DefaultServer			on
+ShowSymlinks			on
+TimeoutNoTransfer		600
+TimeoutStalled			600
+TimeoutIdle			    1200
+DisplayLogin            welcome.msg
+DisplayChdir            .message true
+ListOptions             "-l"
+DenyFilter			    \*.*/
+Port				    21
+<IfModule mod_dynmasq.c>
+</IfModule>
+MaxInstances			30
+User				proftpd
+Group				nogroup
+Umask				022  022
+AllowOverwrite			on
+TransferLog /var/log/proftpd/xferlog
+SystemLog   /var/log/proftpd/proftpd.log
+<IfModule mod_quotatab.c>
+QuotaEngine off
+</IfModule>
+<IfModule mod_ratio.c>
+Ratios off
+</IfModule>
+<IfModule mod_delay.c>
+DelayEngine on
+</IfModule>
+<IfModule mod_ctrls.c>
+ControlsEngine        off
+ControlsMaxClients    2
+ControlsLog           /var/log/proftpd/controls.log
+ControlsInterval      5
+ControlsSocket        /var/run/proftpd/proftpd.sock
+</IfModule>
+<IfModule mod_ctrls_admin.c>
+AdminControlsEngine off
+</IfModule>
+Include /etc/proftpd/conf.d/
 
-ServerName  [Nombre del Servidor]
+AccessGrantMSG  "Bienvenido al FTP de SafeHome"
+AccessDenyMSG   "Error al entrar al FTP de SafeHome"
 
-AccessGrantMsg  [Mensaje de Acceso Conseguido]
-AccessDenyMsg   [Mensaje de Conexion Denegada]
-
-<Limit LOGIN>
-DenyAll
-AllowUser [Usuario]
-</Limit>
+DefaultRoot ~
 ```
 
 _Para salir y guardar Control+O y Control+X_
@@ -52,18 +89,16 @@ _Para salir y guardar Control+O y Control+X_
 ### Ya configurado el archivo de FTP conf
 
 ```markdown
-root@server:~# systemctl restart proftpd
+root@server:~# systemctl reload proftpd
 ```
 
 ### Listo !!
 
 _Ya estariamos listos para acceptar conexiones de nuestros clientes_
 
-### Para ver los Logs del Servidor FTP
+## -----------------------------------------------------------------------------
 
-```markdown
-root@server:~# cat /var/log/proftpd/proftpd.log
-```
+## * Aportes  
 
 ### Ver Conexiones en el Servidor
 
@@ -71,6 +106,11 @@ root@server:~# cat /var/log/proftpd/proftpd.log
 root@server:~# ftpwho
 
 root@server:~# ftptop
+```
+
+### Verficar Logs del Servidor FTP
+```markdown 
+root@server:~# tail -n 15 /var/log/proftpd/proftpd.log
 ```
 
 ### Para mas informacion consultar el video del proceso
