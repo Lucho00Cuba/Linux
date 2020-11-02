@@ -32,22 +32,22 @@ _El archivo de configuracion quedaria de esta manera_
 
 ```markdown
 Include /etc/proftpd/modules.conf
-UseIPv6				    on
-IdentLookups			off
-ServerName			    "FTP SafeHome"
-ServerType			    standalone
-DeferWelcome			off
-MultilineRFC2228		on
-DefaultServer			on
-ShowSymlinks			on
-TimeoutNoTransfer		600
-TimeoutStalled			600
-TimeoutIdle			    1200
-DisplayLogin            welcome.msg
-DisplayChdir            .message true
-ListOptions             "-l"
-DenyFilter			    \*.*/
-Port				    21
+UseIPv6				        on
+IdentLookups			    off
+ServerName			        "FTP SafeHome"
+ServerType			        standalone
+DeferWelcome			    off
+MultilineRFC2228		    on
+DefaultServer			    on
+ShowSymlinks			    on
+TimeoutNoTransfer		    600
+TimeoutStalled			    600
+TimeoutIdle			        1200
+DisplayLogin                welcome.msg
+DisplayChdir                .message true
+ListOptions                 "-l"
+DenyFilter			        \*.*/
+Port				        21
 <IfModule mod_dynmasq.c>
 </IfModule>
 MaxInstances			30
