@@ -12,4 +12,4 @@ _Un servicio es un programa que se ejecuta en segundo plano, fuera del control i
 
 ## Servicios
 
-* [FTP](https://github.com/Lucho00Cuba/Services/blob/main/ftp.md)
+* [FTP](https://github.com/Lucho00Cuba/Services/tree/main/FTP/ftp.md)
