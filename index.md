@@ -8,6 +8,7 @@ _Un servicio es un programa que se ejecuta en segundo plano, fuera del control i
 * Debian
 * Ubuntu
 * Centos
+* Fedora
 
 ## Servicios
 
