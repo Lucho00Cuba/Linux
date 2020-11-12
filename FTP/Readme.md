@@ -2,8 +2,6 @@
 
 ![FTP Linux](https://codeablemagazine.com/wp-content/uploads/2016/10/ftp.jpg)
 
-[Video]()
-
 ### Para realizar esta practica solo dispondremos de un Servidor DNS con un registro a nuesto servidor (ftp.safehome.local)
 
 ### Primero pasaremos a actualizar el servidor 
@@ -55,3 +53,7 @@ nano /etc/proftpd/proftpd.conf
  
  ftpwho
  ftptop
+
+## Video 
+
+[Video](https://youtu.be/6lRS8G4Oo8w)
