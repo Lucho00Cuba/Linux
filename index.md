@@ -39,8 +39,8 @@ _En los sistemas de archivos jerárquicos, usualmente, se declara la ubicación 
 root@server~# ls /home/lucho
 ```
 
-**/** > Representa el directorio raiz donde esta montado el sistema de archivos
-**home/lucho** > Ruta que vamos a listar
+* **/** > Representa el directorio raiz donde esta montado el sistema de archivos
+* **home/lucho** > Ruta que vamos a listar
 
 **Nota : El ejemplo arriba descrito se podria utilizar para cualquier funcion**
 
