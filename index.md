@@ -12,11 +12,11 @@ _Un servicio es un programa que se ejecuta en segundo plano, fuera del control i
 
 ## Servicios
 
-* [FTP](https://github.com/Lucho00Cuba/Services/tree/main/FTP/ftp.md)
+* [FTP](./FTP/ftp.md)
 
-* [XAMPP](https://github.com/Lucho00Cuba/Services/tree/main/XAMPP/xampp.md)
+* [XAMPP](./XAMPP/xampp.md)
 
-* [DNS](https://github.com/Lucho00Cuba/Services/tree/main/DNS/dns.md)
+* [DNS](./DNS/dns.md)
 
 # Linux
 
