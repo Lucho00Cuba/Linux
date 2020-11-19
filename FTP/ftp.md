@@ -96,7 +96,7 @@ _Ya estariamos listos para acceptar conexiones de nuestros clientes_
 
 ## -----------------------------------------------------------------------------
 
-## * Aportes  
+## Aportes  
 
 ### Ver Conexiones en el Servidor
 
