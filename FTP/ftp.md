@@ -18,11 +18,25 @@ root@server:~# apt-get update
 
 root@server:~# apt-get install proftpd -y
 ```
+
+### Ver estado del servidor
+```markdown
+root@server:~# systemctl status proftpd
+```
+
 ### Nos dirigimos a la ruta de configuracion del FTP
 
 ```markdown
 root@server:~# nano /etc/proftpd/proftpd.conf
 ```
+### Parametros a conocer
+
+ [ DefaultRoot - Ruta de acceso ]
+ [ DefaultRoot - Ruta de acceso Grupo/Usuario]
+ 
+ [ ServerName (Nombre del Servidor) ]
+ [ AccessGrantMsg (Mensaje de Conexion Establecida) ]
+ [ AccessDenyMsg  (Mensaje de No Conectado) ]
 
 ### En el archivo de configuracion de FTP
 
