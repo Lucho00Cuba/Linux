@@ -8,8 +8,8 @@ _El protocolo de configuración dinámica de host es un protocolo de red de tipo
 
 ## Notas
 
-_Para este laboratorio estaremos usando el cliente/servidor Bind9. Ya que ofrece una combinación de seguridad, facilidad de uso y riqueza de características._
+_Para este laboratorio estaremos usando el cliente/servidor isc-dhcp-server. Ya que ofrece una combinación de seguridad, facilidad de uso y riqueza de características._
 
 ## Video
 
-[En espera](#)
+[Video](https://youtu.be/g1HQV4Fh-Q8)
