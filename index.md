@@ -18,7 +18,7 @@ _Un servicio es un programa que se ejecuta en segundo plano, fuera del control i
 
 * [DNS](./DNS/dns.md)
 
-* [VPN](./VPN/vpn.md)
+* [DHCP](./DHCP/dhcp.md)
 
 # Linux
 
