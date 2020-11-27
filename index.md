@@ -47,3 +47,7 @@ root@server~# ls /home/lucho
 **Nota : El ejemplo arriba descrito se podria utilizar para cualquier funcion**
 
 ### Proyecto Casero Linux_Cuba >> Lucho
+                        
+    
+
+     El conocimiento es la mejor inversión que se puede hacer                                                    Abraham Lincoln 
