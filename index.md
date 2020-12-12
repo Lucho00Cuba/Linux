@@ -20,6 +20,8 @@ _Un servicio es un programa que se ejecuta en segundo plano, fuera del control i
 
 * [DHCP](./DHCP/dhcp.md)
 
+* [MAIL](./CORREO/correo.md)
+
 # Linux
 
 _Linux es una familia de sistemas operativos de código abierto tipo Unix basados ​​en el kernel de Linux, un kernel de sistema operativo. Un sistema operativo (SO) de open source y una plataforma de infraestructura de TI. Originalmente, fue concebido y creado como un pasatiempo por Linus Torvalds_

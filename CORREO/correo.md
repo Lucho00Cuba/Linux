@@ -10,7 +10,7 @@ _El protocolo de envio de correos en el (SMTP: El protocolo para transferencia s
 
 _Tener ya configurado un servidor DNS. Con los registros correspondientes al servidor de correo_
 
- :free: : [DNS by Lucho](../DNS/dns.md)
+**+** _:_ [DNS by Lucho](../DNS/dns.md)
 
 ## Datos
 
@@ -19,7 +19,14 @@ _Tener ya configurado un servidor DNS. Con los registros correspondientes al ser
 * Cliente Ubuntu
 * **IMPORTANTE** : _El servidor que estamos realizando en la practica tiene seguridad nula, solo como medio de aprendizaje basico, no para produccion_
 
-## Conguraciones
+## Configuraciones
+
+_Nota : Todas las configuraciones vistas aqui se muetran en el video_
+
+### Creacion de usuarios para el servidor de correo
+```markdowm
+root@server:~# adduser
+```
 
 ### Instalar Servidor SMTP (Postfix)
 ```markdown
