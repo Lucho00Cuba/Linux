@@ -24,7 +24,6 @@ safehome.local. IN  MX 10   mail
 ## Datos
 
 * FQDN del servidor de correo = mail.safehome.local
-* Cliente Windows 7
 * Cliente Ubuntu
 * **IMPORTANTE** : _El servidor que estamos realizando en la practica tiene seguridad nula, solo como medio de aprendizaje basico, no para produccion_
 
