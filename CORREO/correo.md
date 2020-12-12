@@ -10,6 +10,15 @@ _El protocolo de envio de correos en el (SMTP: El protocolo para transferencia s
 
 _Tener ya configurado un servidor DNS. Con los registros correspondientes al servidor de correo_
 
+**_Registros DNS_**
+```markdown
+mail            IN  A       10.15.1.10
+safehome.local. IN  MX 10   10.15.1.10
+```
+
+* safehome.local = Nombre DNS del servidor de correo
+* 10.15.1.10 = La IP del servidor 
+
 **+** _:_ [DNS by Lucho](../DNS/dns.md)
 
 ## Datos
