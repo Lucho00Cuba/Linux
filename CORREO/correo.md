@@ -13,13 +13,13 @@ _Tener ya configurado un servidor DNS. Con los registros correspondientes al ser
 **_Registros DNS_**
 ```markdown
 mail            IN  A       10.15.1.10
-safehome.local. IN  MX 10   10.15.1.10
+safehome.local. IN  MX 10   mail
 ```
 
 * safehome.local = Nombre DNS del servidor de correo
 * 10.15.1.10 = La IP del servidor 
 
-**+** _:_ [DNS by Lucho](../DNS/dns.md)
+**+** [DNS by Lucho](../DNS/dns.md)
 
 ## Datos
 
@@ -33,16 +33,19 @@ safehome.local. IN  MX 10   10.15.1.10
 _Nota : Todas las configuraciones vistas aqui se muetran en el video_
 
 ### Creacion de usuarios para el servidor de correo
+
 ```markdowm
 root@server:~# adduser
 ```
 
 ### Instalar Servidor SMTP (Postfix)
+
 ```markdown
 root@server:~# apt-get install postfix -y
 ```
 
 ### Postfix
+
 ```markdown
 root@server:~# nano /etc/postfix/main.cf
 ```
@@ -56,6 +59,7 @@ root@server:~# nano /etc/postfix/main.cf
 * home_mailbox = Maildir/
 
 ### Verificar servicio
+
 ```markdown
 root@server:~# systemctl restart postfix
 root@server:~# systemctl status postfix
@@ -63,6 +67,7 @@ root@server:~# postconf -n
 ```
 
 ### Instalar Servidor IMAP y POP3 (Dovecot)
+
 ```markdown
 root@server:~# apt-get install dovecot-core dovecot-imapd -y
 ```
@@ -70,21 +75,25 @@ root@server:~# apt-get install dovecot-core dovecot-imapd -y
 **Configuraciones en el servidor imap**
 
 * Deshabilitar SSL en el servidor 
+
 ```markdown
 root@server:~# nano /etc/dovecot/conf.d/10-ssl.conf
 ```
 
 * Habilitar las contraseñas en texto plano
+
 ```markdown
 root@server:~# nano /etc/dovecot/conf.d/10-auth.conf
 ```
 
 * Establecer tipo de buzon
+
 ```markdowm
 root@server:~# nano /etc/dovecot/conf.d/10-mail.conf
 ```
 
 ### Verficar Servicio
+
 ```markdown
 root@server:~# systemctl restart dovecot
 root@server:~# systemctl status dovecot
