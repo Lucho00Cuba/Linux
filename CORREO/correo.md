@@ -49,6 +49,7 @@ root@server:~# apt-get install postfix -y
 ```markdown
 root@server:~# nano /etc/postfix/main.cf
 ```
+
 **Parametros a revisar o agregar**
 
 * myhostname
@@ -100,7 +101,6 @@ root@server:~# systemctl status dovecot
 ``` 
 
 ## Listo ! Hacer las verificacion en los clientes
-
 
 ## Video 
 
