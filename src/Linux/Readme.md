@@ -13,4 +13,5 @@ _La estructura de directorios suele ser jerárquica, ramificada o "en árbol", a
 
 _En los sistemas de archivos jerárquicos, usualmente, se declara la ubicación precisa de un archivo con una cadena de texto llamada ruta (path, en inglés). La nomenclatura para rutas varía ligeramente de sistema en sistema, pero mantienen por lo general una misma estructura. Una ruta viene dada por una sucesión de nombres de directorios y subdirectorios, ordenados jerárquicamente de izquierda a derecha y separados por algún carácter especial que suele ser una barra diagonal / o barra diagonal invertida \ (según el sistema operativo) y puede terminar en el nombre de un archivo presente en la última rama de directorios especificada._
 
-<img src="https://i.blogs.es/b8d024/linux-file-system-hierarchy-linux-file-structure-optimized/original.jpg" alt="Ficheros" width="700">
+
+![Ficheros](https://i.blogs.es/b8d024/linux-file-system-hierarchy-linux-file-structure-optimized/original.jpg)
