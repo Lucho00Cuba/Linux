@@ -1,6 +1,6 @@
 [Atras](../../index.md)
 
-* [Basico](./Basico)
+* [Basico](./Basico.md)
 
 ## Linux
 
