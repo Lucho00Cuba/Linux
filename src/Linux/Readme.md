@@ -1,10 +1,6 @@
 [Atras](../../index.md)
 
-<ul>
-    <li>
-        <a href="./Basico.md">Basico</a>
-    </li>
-</ul>
+* [Basico](./Basico)
 
 ## Linux
 

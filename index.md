@@ -5,9 +5,9 @@
 ## Secciones
 
 
-<a href="./src/Linux/Readme.md" aling="left">Linux</a>
+[Linux](./src/Services/Readme.md)
 
-<a href="./src/Services/Readme.md" aling="center">Services</a>
+[Services](./src/Services/Readme.md)
 
 
 ### Proyecto Casero Linux_Cuba >> Lucho
