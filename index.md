@@ -1,17 +1,18 @@
 ## Pagina de inicio
-![Spart](./img/espart.png)
+
+<img src="./img/espart.png" aling="center" alt="Lucho" width="100">
 
 ## Secciones
 
-* [Linux](./src/Linux/Readme.md)
 
-* [Services](./src/Linux/Readme.md)
+<a href="./src/Linux/Readme.md" aling="left">Linux</a>
 
+<a href="./src/Services/Readme.md" aling="center">Services</a>
 
 
 ### Proyecto Casero Linux_Cuba >> Lucho
 
-![Coding](./img/coding.png) 
-    
+<img src="./img/coding.png" aling="center" alt="Lucho" width="100">
+
 > _El conocimiento es la mejor inversión que se puede hacer_   
 **_Abraham Lincoln_** 

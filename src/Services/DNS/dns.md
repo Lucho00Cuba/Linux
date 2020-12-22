@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Atras](../Readme.md)
+
 ## DNS
 
 _El sistema de nombres de dominio ​ es un sistema de nomenclatura jerárquico descentralizado para dispositivos conectados a redes IP como Internet o una red privada_

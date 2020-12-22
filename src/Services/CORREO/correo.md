@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Atras](../Readme.md)
+
 ## Correo
 
 _El protocolo de envio de correos en el (SMTP: El protocolo para transferencia simple de correo). En esta practica esrtaremos instalando un servidor de correo muy simple. Estaremos utilizando Postfix. Postfix es un servidor de correo de software libre / código abierto, un programa informático para el enrutamiento y envío de correo electrónico_

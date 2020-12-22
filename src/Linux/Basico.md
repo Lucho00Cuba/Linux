@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+[Atras](./Readme.md)
+
 ## Conceptos Basicos
 
 **.** = Directorio Actual
