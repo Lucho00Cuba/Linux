@@ -7,14 +7,14 @@ layout: default
 ## Conceptos Basicos
 
 **.** = Directorio Actual
-```markdown
+```shell
 lucho@linux:~$ ls .
 Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap test Vídeos
 lucho@linux:~$
 ```
 
 **..** = Directorio Padre
-```markdown
+```shell
 lucho@linux:~$ ls ..
 lucho
 lucho@linux:~$
@@ -23,13 +23,13 @@ lucho@linux:~$
 ### Rutas
 
 **Ruta Relativa**
-```markdown
+```shell
 lucho@linux:~$ ls ./Escritorio
 lucho@linux:~$
 ```
 
 **Ruta Completa** 
-```markdown
+```shell
 lucho@linux:~$ ls /home
 lucho@linux:~$
 ```
@@ -38,34 +38,34 @@ lucho@linux:~$
 
 * pwd 
     * Directorio de Trabajo
-        ```markdown
+        ```shell
         lucho@linux:~$ pwd
         /home/lucho
         lucho@linux:~$  
         ```
 * cat
     * Ver contenido de archivos
-        ```markdown
+        ```shell
         lucho@linux:~$ cat archivo.txt
         Hola Mundo
         lucho@linux:~$
         ```
 * ls
     * Listar directorios
-        ```markdown
+        ```shell
         lucho@linux:~$ ls
         Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap  Vídeos
         lucho@linux:~$
         ```
 * cd
     * Moverse por los directorios
-        ```markdown
+        ```shell
         lucho@linux:~$ cd Escritorio
         lucho@linux:~/Escritorio$
         ```
 * mkdir
     * Creacion de directorios
-        ```markdown
+        ```shell
         lucho@linux:~$ mkdir test
         lucho@linux:~$ ls
         Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap test Vídeos
@@ -73,7 +73,7 @@ lucho@linux:~$
         ```
 * touch
     * Creacion de archivos
-        ```markdown
+        ```shell
         lucho@linux:~$ touch test.txt
         lucho@linux:~$ ls
         Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap test.txt Vídeos
@@ -81,7 +81,7 @@ lucho@linux:~$
         ```
 * rm 
     * Eliminar archivos y directorios
-        ```markdown
+        ```shell
         lucho@linux:~$ rm test.txt
         lucho@linux:~$ ls
         Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap Vídeos
@@ -89,7 +89,7 @@ lucho@linux:~$
         ```
 * rmdir
     * Eliminar directorios o subdirectorios **vacios**
-        ```markdown
+        ```shell
         lucho@linux:~$ rmdir test
         lucho@linux:~$ ls
         Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap Vídeos
@@ -97,7 +97,7 @@ lucho@linux:~$
         ```
 * history
     * Ver historial de comandos introducidos
-        ```markdown
+        ```shell
         lucho@linux:~$ history
         1   pwd
         2   cat archivo.txt
@@ -113,7 +113,7 @@ lucho@linux:~$
 
 * echo
     * Imprimir en consola
-        ```markdown
+        ```shell
         lucho@linux:~$ echo "Hola Mundo"
         Hola Mundo
         lucho@linux:~$
@@ -121,14 +121,14 @@ lucho@linux:~$
 
 * mv 
     * Cambiar directorios, archivos de ruta o nombre
-        ```markdown
+        ```shell
         lucho@linux:~$ mv archivo.txt ./Escritorio
         lucho@linux:~$
         ```
 
 * cp 
     * Copiar directorios y archivos
-        ```markdown
+        ```shell
         lucho@linux:~$ cp archivo.txt ./Documentos
         lucho@linux:~$
         ```
