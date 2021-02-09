@@ -13,3 +13,8 @@ _Samba es una implementación de código abierto del protocolo Server Message Bl
 _En desarrollo de un script para instalar un Controlador de Dominio muy sencillo_
 
 ![AD](https://2.bp.blogspot.com/-n68yXqVX4lo/XLLs7Iit7qI/AAAAAAAAQ4w/ZxFWBAMDF1cAUmgfkZwxpAsMyMywdZp5gCLcBGAs/s1600/Samba4.png)
+
+
+![Herramienta DC](https://github.com/Lucho00Cuba/ControllerDomain)
+
+_Aun esta en pleno desarrollo..!!_
